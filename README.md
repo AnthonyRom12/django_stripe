@@ -43,10 +43,12 @@ __*Тоже добавляем settings*__
 <p><a href='https://stripe.com/docs/stripe-cli#install'> Stripe CLI Install Guide</a></p>
 <p>Вот необходимая документация.</p>
 **Если пользуетесь Pycharm не забывайте уставть данный знак в терминале перед запуском '.\'**
+
 <p>запускаем Listen</p>
+
 ```
-.\stripe listen --forward-to localhost:8000/webhooks/stripe
-/
+.\stripe listen --forward-to localhost:8000/webhooks/stripe/
+
 ```
 **Запускаем сервер**
 
