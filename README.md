@@ -2,11 +2,13 @@
 Simple Payment Project  with Django and Stripe library.
 
 **Запуск проекта:**
+<div>
 *1. Создаем виртуальное окружение;*
 *2. Устанавливаем библиотеку Django;*
 *3. Устанавливаем библиотеку Stripe;* 
 <p>Всю документацию по библиотеки Stripe можно посмотреть здесь --></p>
 <a href="https://stripe.com/docs/checkout/quickstart">Stripe Official Docs</a>
+</div>
 *4. В папке проекта не забываем добавить в settings наш app.*
 ```
 INSTALLED_APPS = [
@@ -30,4 +32,4 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [BASE_DIR / 'templates'],
 ```
-'DICS' = ['BASE / DIR 'templates'] - добавить в квадратные скобки `BASE / DIR 'templates'`
+'DIRS' = ['BASE / DIR 'templates'] - добавить в квадратные скобки `BASE / DIR 'templates'`
