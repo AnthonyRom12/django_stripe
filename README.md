@@ -7,9 +7,11 @@ Simple Payment Project  with Django and Stripe library.
 *2. Устанавливаем библиотеку Django;*
 *3. Устанавливаем библиотеку Stripe;* 
 <p>Всю документацию по библиотеки Stripe можно посмотреть здесь --></p>
-<a href="https://stripe.com/docs/checkout/quickstart">Stripe Official Docs</a>
+    <p><a href="https://stripe.com/docs/checkout/quickstart">Stripe Official Docs</a></p>
 </div>
+
 *4. В папке проекта не забываем добавить в settings наш app.*
+
 ```
 INSTALLED_APPS = [
     'products',
