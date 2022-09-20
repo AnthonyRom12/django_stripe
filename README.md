@@ -1,12 +1,12 @@
-# django_stripe
+# Django_Stripe
 Simple Payment Project  with Django and Stripe library.
 
 **Запуск проекта:**
 <div>
-*1. Создаем виртуальное окружение;*
-*2. Устанавливаем библиотеку Django;*
-*3. Устанавливаем библиотеку Stripe;* 
-<p>Всю документацию по библиотеки Stripe можно посмотреть здесь --></p>
+    <p>*1. Создаем виртуальное окружение;*</p>
+    <p>*2. Устанавливаем библиотеку Django;*</p>
+    <p>*3. Устанавливаем библиотеку Stripe;*</p>
+    <p>Всю документацию по библиотеки Stripe можно посмотреть здесь --></p>
     <p><a href="https://stripe.com/docs/checkout/quickstart">Stripe Official Docs</a></p>
 </div>
 
