@@ -54,7 +54,7 @@ __Если пользуетесь Pycharm не забывайте уставть
 **Запускаем сервер**
 
 ```
-python mnage.py runserver
+python manage.py runserver
 ```
 
 **Ну вот и все 
