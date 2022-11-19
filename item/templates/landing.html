@@ -176,9 +176,10 @@ button:disabled {
         <div class="description">
           <h3>{{ product.name }}</h3>
           <h5>${{ product.get_display_price }}</h5>
+          <h5>{{ product.description }}</h5>
         </div>
       </div>
-      <button type="button" id="checkout-button">Checkout</button>
+      <button type="button" id="checkout-button">Buy</button>
       <hr />
       <h2>Checkout using custom payment flow</h2>
       <form id="payment-form">

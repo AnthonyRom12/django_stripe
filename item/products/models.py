@@ -5,6 +5,7 @@ class Product(models.Model):
     name = models.CharField(max_length=100)
     price = models.IntegerField(default=0)  # cents
     file = models.FileField(upload_to="product_files/", blank=True, null=True)
+    description = models.TextField(default=0)
     url = models.URLField()
 
     def __str__(self):

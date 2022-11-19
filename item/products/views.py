@@ -46,6 +46,7 @@ class CreateCheckOutSessionView(View):
                         'unit_amount': product.price,
                         'product_data': {
                             'name': product.name,
+                            'description': product.description,
                             # 'images': [''],
                         },
                     },
