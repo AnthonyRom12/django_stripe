@@ -1,5 +1,5 @@
 # Django_Stripe
-Simple Payment Project  with Django and Stripe library.
+*Simple Payment Project  with Django and Stripe library.*
 
 **Запуск проекта:**
 <div>
