@@ -27,7 +27,7 @@ STRIPE_WEBHOOK_SECRET = 'Print webhook here'
 
 ```
 
-__*Также в папке settings*__
+*Также в папке settings*
 ```
 TEMPLATES = [
     {
