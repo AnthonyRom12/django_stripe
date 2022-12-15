@@ -2,6 +2,7 @@
 __*Simple Payment Project  with Django and Stripe library.*__
 
 **Запуск проекта:**
+
 <div>
     <p>1. Создаем виртуальное окружение;</p>
     <p>2. Устанавливаем библиотеку Django;</p>
